@@ -8,6 +8,7 @@
 * phone: (+90)5076462388
 * Discord: Анастасия-94(@zi_stacy)
 
+
 **About me**
 I'm student of RS Pre-School 2022. I want to study Front-end development.
 
