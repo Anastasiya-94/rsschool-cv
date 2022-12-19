@@ -71,15 +71,23 @@ h1 {
 .footer {
     border: 1px solid red;
     background-color: rgb(224, 224, 224);
+    
+
+}
+.foot-nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .container {
     max-width: 1440px;
     margin: 0 auto;
 } 
 .icon {
-  width: 121px;
-  height: 45px;
-  background-image: url ("./rs_school_js.svg");
+  margin-right: 40px;  
+  padding: 60px;
+  
+  background-image: url("rs_school_js.svg");
   background-size: contain;
   background-repeat: no-repeat
 }
