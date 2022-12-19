@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roborto', sans-serif;
+    
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.header {
+    background-color: rgb(224, 224, 224);
+    border: 1px solid red;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto; 
+}
+html {
+    scroll-behavior: smooth; 
+  }
+img {
+    width: 110px;
+    height: 160px;
+}
+h1 {
+    font-size: 25px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: #829985;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+
+.nav-link {
+    padding: 0 5px;
+    line-height: 30px;
+    text-decoration: none;
+}
+.section-title{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.section {
+    width: 50%;
+}
+.nav-item {
+    margin-left: 15px;
+}
+
+.contact-list {
+    list-style: none;
+    padding-left: 2px;
+    
+}
+.footer {
+    border: 1px solid red;
+    background-color: rgb(224, 224, 224);
+    
+
+}
+.foot-nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+} 
+.icon {
+  margin-right: 40px;  
+  padding: 60px;
+  
+  background-image: url("rs_school_js.svg");
+  background-size: contain;
+  background-repeat: no-repeat
+}
