@@ -79,7 +79,7 @@ h1 {
 .icon {
   width: 121px;
   height: 45px;
-  background-image: url(/rsschool-cv/assets/rs_school_js.svg);
+  background-image: url ("./rs_school_js.svg");
   background-size: contain;
   background-repeat: no-repeat
 }
