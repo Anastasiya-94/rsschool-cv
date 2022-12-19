@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roborto', sans-serif;
+    color: blue;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+.header {
+    background-color: rgb(224, 224, 224);
+    border: 1px solid red;
+}
+.section-title {
+    padding: 40px;
+}
+img {
+    width: 110px;
+    height: 160px;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+h2 {
+    
+}
+.nav-item {
+    margin-left: 15px;
+}
+section-item a {
+    color: olive;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.section-item a:hover {
+    color: brown;
+}
+.contact-list {
+    list-style: none;
+    
+}
+.footer {
+    border: 1px solid red;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+} 
