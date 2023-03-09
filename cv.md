@@ -20,9 +20,11 @@ const stringToNumber = function(str){
 console.log(stringToNumber("100"));
 ```
 ### **Courses**
+**RS School Stage#0**
 **CodeBasics**:
 * HTML
 * CSS
-* JavaScript (Basic)
+
+**RS School Stage#0**
 ### **English**
 **A2** 
