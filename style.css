@@ -12,13 +12,17 @@ body {
 }
 .header {
     border: 1px solid gray;
+    background-color: rgb(148, 148, 141);
+    opacity: 30%;
 }
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
-
+.navigation {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .section {
     padding-left: 20px;
     padding-right: 20px;
@@ -39,7 +43,30 @@ body {
     list-style: none;
 }
 .nav_link {
-    padding-right: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 10px;
     list-style: none;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.nav_link1 {
+    text-decoration: none;
     transition: 0.5s;
+}
+.nav_link1:hover {
+    color: rgb(0, 0, 0);
+}
+.footer {
+    border: 1px solid gray;
+    background-color: rgb(148, 148, 141);
+    opacity: 40%;
+    display: flex;
+    align-items: center;
+}
+.date {
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
 }
