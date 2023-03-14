@@ -1,0 +1,85 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+* {
+    box-sizing: border-box;
+}
+.header {
+    border: 1px solid gray;
+    background-color: rgb(148, 148, 141);
+    opacity: 30%;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.navigation {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.section {
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.part-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+ .img_profile {
+    width: 150px;
+    height: 260px;
+    background-image: url(./img/ve56.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.text {
+    width: 400px;
+}
+.part-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav_list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav_link {
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 10px;
+    list-style: none;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.nav_link1 {
+    text-decoration: none;
+    transition: 0.5s;
+}
+.nav_link1:hover {
+    color: rgb(0, 0, 0);
+}
+.footer {
+    border: 1px solid gray;
+    background-color: rgb(148, 148, 141);
+    opacity: 40%;
+    display: flex;
+    align-items: center;
+}
+.date {
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+}
